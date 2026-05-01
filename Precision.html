@@ -3,17 +3,8 @@
 <html>
 
 <head>
-	<title>Precision Client (1.5.2-beta_0.2)</title>
+	<title>Precision Client v2</title>
 	<meta charset="UTF-8" />
-	<meta content="Precision Client is a custom eaglercraft client with QOL features, custom texture packs, and more." name="description" />
-	<meta content="//precisionclient.vercel.app" name="url" />
-	<meta content="EtcherFX" name="author" />
-	<meta content="Precision Client" property="og:title" />
-	<meta content="en-US" property="og:locale" />
-	<meta content="website" property="og:type" />
-	<!--meta content="IMAGE" property="og:image"/>-->
-	<meta content="Precision Client is a custom eaglercraft client with QOL features, custom texture packs, and more."
-		property="og:description" />
 	<script type="96aa1df83bcea9bbdc5801f4-text/javascript" src="https://client.eaglercraft.win/eagler-files/1.5.2/precisionbeta2/eagswebrtc.js"></script>
 	<script type="96aa1df83bcea9bbdc5801f4-text/javascript" src="https://client.eaglercraft.win/eagler-files/1.5.2/precisionbeta2/classes.js"></script>
 	<script src="https://client.eaglercraft.win/js/ga4.js" type="96aa1df83bcea9bbdc5801f4-text/javascript"></script>
@@ -88,8 +79,8 @@
 					const relayId = Math.floor(Math.random() * 3);
 					window.eaglercraftOpts = {
 						container: "game_frame",
-						assetsURI: `packs/${Selected}.epk`,
-						serverWorkerURI: "worker_bootstrap.js",
+						assetsURI: `:https://client.eaglercraft.win/eagler-files/1.5.2/precisionbeta2/packs/${Selected}.epk`,
+						serverWorkerURI: "https://client.eaglercraft.win/eagler-files/1.5.2/precisionbeta2/worker_bootstrap.js",
 						worldsFolder: "MAIN",
 						servers: [
 						],
